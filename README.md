@@ -7,9 +7,12 @@ Projeto em Python que implementa um sistema de biblioteca em terminal, permitind
 - Listar livros
 - Editar livros
 - Remover livros
+- Salvar dados automaticamente em JSON
+- Validação de entrada do usuario
 
 ## Tecnologias
 - Python 3
+- JSON
 
 ## Como executar
 
@@ -24,3 +27,7 @@ Projeto em Python que implementa um sistema de biblioteca em terminal, permitind
 
 ## Status do projeto
    Em desenvolvimento
+
+## Autor
+José Luadson Araujo Aguiar
+Estudante de python!
