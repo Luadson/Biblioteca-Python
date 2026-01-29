@@ -1,33 +1,43 @@
-# Sistema de biblioteca em python
+# Sistema de Biblioteca em Python
 
 Projeto em Python que implementa um sistema de biblioteca em terminal, permitindo cadastrar, listar, editar e remover livros.
 
+---
+
 ## Funcionalidades
-- Cadastrar livros
-- Listar livros
-- Editar livros
-- Remover livros
-- Salvar dados automaticamente em JSON
-- Validação de entrada do usuario
+- Cadastrar livros  
+- Listar livros  
+- Editar livros  
+- Remover livros  
+- Salvar dados automaticamente em JSON  
+- Validação de entrada do usuário  
+
+---
 
 ## Tecnologias
-- Python 3
-- JSON
+- Python 3  
+- JSON  
+
+---
 
 ## Como executar
 
 1. Clone o repositório:
-   git clone https://github.com/Luadson/Biblioteca-Python.git
-
+```bash
+git clone https://github.com/Luadson/Biblioteca-Python.git
+```
 2. Entre na pasta do projeto:
-   cd Biblioteca-Python
-
+```bash
+cd Biblioteca-Python
+```
 3. Execute o programa:
-   python main.py
+```bash
+python main.py
+```
 
 ## Status do projeto
-   Em desenvolvimento
+Em desenvolvimento
 
 ## Autor
-José Luadson Araujo Aguiar
-Estudante de python!
+José Luadson Araújo Aguiar
+Estudante de Python
