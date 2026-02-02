@@ -5,10 +5,15 @@ Todas as mudanças importantes deste projeto serão documentadas aqui.
 
 
 ## [Unreleased]
-- Refatoração do CRUD
-- Melhoria nas validações
-- Organização dos módulos
 
+## [0.2.0] - 2026-02-02
+### Added
+- Código agora está na forma Orientação a Objetos (OO)
+- Classe Biblioteca
+- Classe Livro
+- Novo formato do JSON
+- Persistêcia de estado
+- Refatoração do CRUD
 
 ## [0.1.0] - 2026-01-28
 ### Added

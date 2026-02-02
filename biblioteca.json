@@ -1,14 +1,17 @@
-[
-    {
-        "titulo": "O Espreitador",
-        "autor": "Daniel Hartman",
-        "ano": 2024,
-        "id": 1
-    },
-    {
-        "titulo": "Dracula",
-        "autor": "John Green",
-        "ano": "2025",
-        "id": 2
-    }
-]
+{
+    "proximo_id": 4,
+    "livros": [
+        {
+            "id": 1,
+            "titulo": "O Espreitador",
+            "autor": "2023",
+            "ano": "2012"
+        },
+        {
+            "id": 3,
+            "titulo": "O Hobbite",
+            "autor": "J.K.K Tolken",
+            "ano": "1982"
+        }
+    ]
+}
