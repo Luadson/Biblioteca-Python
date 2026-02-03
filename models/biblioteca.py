@@ -6,8 +6,7 @@ class Biblioteca:
         self.arquivo = 'biblioteca.json'
         self.proximo_id = 1
         self.carregar_dados()
-    
-    
+
     def carregar_dados(self):
         """
         Função feita para carregar dados do JSON
