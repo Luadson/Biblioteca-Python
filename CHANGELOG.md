@@ -6,6 +6,12 @@ Todas as mudanças importantes deste projeto serão documentadas aqui.
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-02-03
+### Added
+- Flask API
+- Rotas
+- Status codes na maioria dos casos 
+
 ## [0.2.0] - 2026-02-02
 ### Added
 - Código agora está na forma Orientação a Objetos (OO)
