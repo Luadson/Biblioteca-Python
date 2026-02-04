@@ -48,7 +48,7 @@ def novo_livro():
         livro = Livro(id=None, titulo=titulo, autor=autor, ano=ano)
         biblioteca.receber_livro(livro)
         livro = livro.to_dict()
-        return jsonify({'livro registrado': livro}), 201
+        return jsonify({'message': 'Livro adicionado a biblioteca!'}), 201
 
     else:
         return jsonify({'erro': 'Json não encontrado'}), 400
@@ -88,12 +88,12 @@ def editar_livro(id):
     livro = biblioteca.buscar_livro_id(id)
     if livro is None:
         return jsonify({'erro': 'ID Inexistente'}), 404
-    livro = livro.to_dict()
+    
 
     biblioteca.editar_livro_id(id, titulo=titulo, autor=autor, ano=ano)
     
 
-    return jsonify({'Livro editado': livro}), 200
+    return jsonify({'message': 'Livro editado com sucesso!'}), 200
 
     
 @app.route('/livros/<int:id>', methods=['DELETE'])
