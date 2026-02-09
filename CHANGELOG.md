@@ -6,6 +6,11 @@ Todas as mudanças importantes deste projeto serão documentadas aqui.
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-02-09
+### Added
+- Sqlite3
+- Padronização da Flask API
+
 ## [0.3.0] - 2026-02-03
 ### Added
 - Flask API
