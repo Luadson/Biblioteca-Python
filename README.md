@@ -10,7 +10,7 @@ Projeto em Python que implementa um sistema de biblioteca em terminal, permitind
 - Editar livros  
 - Remover livros
 - Buscar livros por ID
-- Salvar dados automaticamente em JSON  
+- Persistencia de dados com SQLite
 - Validação de entrada do usuário  
 - API REST seguindo padrões HTTP
 
@@ -20,6 +20,7 @@ Projeto em Python que implementa um sistema de biblioteca em terminal, permitind
 - Python 3  
 - JSON  
 - Flask
+- SQLite3
 ---
 
 ## Endpoints da API
@@ -88,7 +89,7 @@ python main.py
 
 ## Status do projeto
 Em desenvolvimento
-Versão Atual: v0.3.0
+Versão Atual: v0.4.0
 
 ## Autor
 José Luadson Araújo Aguiar
